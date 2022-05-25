@@ -90,12 +90,7 @@ export default function Fetch() {
                     <h5 className="card-title mt-4 mb-4 text-center" style={{color: "#383089"}}>{element?.translations?.fra?.common}</h5>
                     <p className="card-text" style={{color: "#70c9e7"}}>Capitale : {element?.capital?.[0]}</p>
                     <p className="card-text" style={{color: "#70c9e7"}}>Région : {element?.region}</p>
-                    <p className="card-text" style={{color: "#70c9e7"}}>Langues : </p>
-                    <p className="card-text" style={{color: "#70c9e7"}}>Monnaie : </p>
                     <p className="card-text" style={{color: "#70c9e7"}}>Habitants : {element?.demonyms?.fra?.m}</p>
-                    <div class="d-grid d-flex justify-content-end">
-                        <a href="#" className="btn btn-primary">En savoir plus</a>
-                    </div>
                   </div>
                 </div>
               </div>
